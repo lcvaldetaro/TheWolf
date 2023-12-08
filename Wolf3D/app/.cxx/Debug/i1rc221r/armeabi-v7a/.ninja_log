@@ -1,0 +1,25 @@
+# ninja log v5
+0	21589	1702065357	CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o	6475a61d4cc26768
+3	22580	1702065358	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act3.c.o	e92d62486cc2ca94
+1	32331	1702065367	CMakeFiles/cacau.wolf.dir/src/main/cpp/misc.c.o	3c329a647c32a486
+1	32371	1702065367	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_vh.c.o	47eb34466e404fe1
+1	32372	1702065367	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_ca.c.o	5d221c5fb0401186
+2	32373	1702065367	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act1.c.o	a140fd2aebec347a
+5	32373	1702065367	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_agent.c.o	273f5f00709f959e
+2	32380	1702065368	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_us.c.o	c369988a04786666
+7	32638	1702065368	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_game.c.o	3c6f74367a88257d
+2	32893	1702065368	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act2.c.o	f19c31ce5de7f30f
+32638	39280	1702065374	CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_comm.c.o	3a987c3964ce61e5
+32372	39283	1702065374	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_text.c.o	94a465c5e7557b69
+32373	39802	1702065374	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_debug.c.o	eb4f3d9b6ea1c4f0
+32370	40073	1702065375	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_play.c.o	563e741442cd34a9
+32371	40073	1702065375	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_state.c.o	9b7d719d49f99993
+32893	40582	1702065375	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_draw.c.o	6ed80dbec71dea74
+22581	40834	1702065376	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_menu.c.o	98a45db36f4acb91
+32380	40834	1702065376	CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_comm.c.o	454e87d94f7c5a34
+21870	41087	1702065376	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_inter.c.o	9a863e903ceb7f49
+32373	41839	1702065377	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_main.c.o	c60b26c6835ca715
+39281	46154	1702065381	CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_null.c.o	dbc066a6db132494
+39283	51651	1702065387	CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_null.c.o	33f45643b0a23ed5
+39802	52688	1702065388	CMakeFiles/cacau.wolf.dir/src/main/cpp/jni_wolf.c.o	78f01569017a5f97
+52688	66811	1702065402	../../../../build/intermediates/cxx/Debug/i1rc221r/obj/armeabi-v7a/libcacau.wolf.so	88016b204f241f92

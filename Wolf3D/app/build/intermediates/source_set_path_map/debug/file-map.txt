@@ -1,0 +1,8 @@
+com.peterpan.wolfs3d.app-pngs-0 /Users/luizvaldetaro/TheWolf/Wolf3D/app/build/generated/res/pngs/debug
+com.peterpan.wolfs3d.app-resValues-1 /Users/luizvaldetaro/TheWolf/Wolf3D/app/build/generated/res/resValues/debug
+com.peterpan.wolfs3d.app-rs-2 /Users/luizvaldetaro/TheWolf/Wolf3D/app/build/generated/res/rs/debug
+com.peterpan.wolfs3d.app-mergeDebugResources-3 /Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.peterpan.wolfs3d.app-mergeDebugResources-4 /Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.peterpan.wolfs3d.app-merged_res-5 /Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/merged_res/debug
+com.peterpan.wolfs3d.app-debug-6 /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/debug/res
+com.peterpan.wolfs3d.app-main-7 /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/res

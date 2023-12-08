@@ -1,0 +1,25 @@
+# ninja log v5
+2	316	1702063102200993101	CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o	50d47948ccaed7d5
+10	478	1702063102360596522	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act3.c.o	473cf624b4151c3b
+1	525	1702063102408055705	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_us.c.o	fd6ee4a1ad708403
+1	562	1702063102443354516	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_vh.c.o	9939f7875c36d6f
+4	584	1702063102465480139	CMakeFiles/cacau.wolf.dir/src/main/cpp/misc.c.o	2bc06e3d75378c00
+7	711	1702063102591211254	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act1.c.o	d0816e85b60ad113
+16	790	1702063102673330289	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_game.c.o	4c34b2a57903c3dd
+13	813	1702063102693830985	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_agent.c.o	75f7cb734ac9e004
+5	850	1702063102670555124	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_ca.c.o	ae359aef6ea71636
+585	972	1702063102849072163	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_text.c.o	b9e8da7fe7f25ae6
+791	1021	1702063102898892538	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_debug.c.o	1f06083447bcaef8
+813	1023	1702063102900135874	CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_comm.c.o	cb4f8993e0087e05
+525	1029	1702063102911259860	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_play.c.o	f93810b185e1f6de
+850	1031	1702063102913975413	CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_comm.c.o	a5bab9c01e527332
+317	1045	1702063102926838137	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_inter.c.o	6ee95d1cad187af8
+1021	1154	1702063103039604488	CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_null.c.o	c4f3532f4c4e7af8
+562	1170	1702063103048155857	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_state.c.o	2c0c173c90ebe131
+8	1185	1702063103065956097	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act2.c.o	4211422fd5533d3e
+1023	1226	1702063103109488239	CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_null.c.o	2ea71fa30b8ba4c
+1029	1269	1702063103151791986	CMakeFiles/cacau.wolf.dir/src/main/cpp/jni_wolf.c.o	ff03c721825ac7ec
+972	1405	1702063103287125552	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_draw.c.o	3c6fa42d3f11cdcd
+712	1451	1702063103332040054	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_main.c.o	f1785709e0b70113
+478	1537	1702063103421260304	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_menu.c.o	2ebd0a5f701ecebf
+0	18	0	clean	c1be15849f504aa9

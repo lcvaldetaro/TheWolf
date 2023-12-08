@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/Users/luizvaldetaro/TheWolf/Wolf3D/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/luizvaldetaro/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/Debug/i1rc221r/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/luizvaldetaro/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/Debug/i1rc221r/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "cacau.wolf::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "cacau.wolf",
+      "output": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/i1rc221r/obj/x86/libcacau.wolf.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/luizvaldetaro/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/luizvaldetaro/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

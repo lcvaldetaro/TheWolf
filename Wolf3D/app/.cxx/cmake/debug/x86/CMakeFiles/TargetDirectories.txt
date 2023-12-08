@@ -1,0 +1,3 @@
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/cmake/debug/x86/CMakeFiles/cacau.wolf.dir

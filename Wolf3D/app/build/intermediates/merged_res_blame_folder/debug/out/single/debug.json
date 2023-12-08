@@ -1,0 +1,582 @@
+[
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_plpain.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/plpain.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_ssdth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/ssdth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_exit.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/exit.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_a1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_a1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_map.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/map.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_dogdth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/dogdth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_pesit.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/pesit.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_help.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/help.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_getthem.mid.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_getthem.mid"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_d1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_d1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_skeatk.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/skeatk.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_num.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_num.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_shotgn.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/shotgn.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_plasma.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/plasma.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_keenpn.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/keenpn.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_title.midi.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_title.midi"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mnpain.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mnpain.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_hoof.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/hoof.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_cacsit.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/cacsit.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_up.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/up.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_wpnup.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/wpnup.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_start_open.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/start_open.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_ultchall.mid.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_ultchall.mid"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_4.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_4.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_bspdth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/bspdth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_dstink.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/dstink.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_d0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_d0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_posit3.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/posit3.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_pistol.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/pistol.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_blank_bkp.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/blank_bkp.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_sssit.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/sssit.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_getpow.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/getpow.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mansit.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mansit.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_right.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/right.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_r0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_r0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_wolfbygepetto.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/wolfbygepetto.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_posit2.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/posit2.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_skepch.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/skepch.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_stright.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/stright.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_dogsit.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/dogsit.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_cacdth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/cacdth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_srchenmy.mid.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_srchenmy.mid"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_b0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_b0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_dmpain.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/dmpain.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_brsdth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/brsdth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_bgdth2.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/bgdth2.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_fire1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/fire1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_start.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/start.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_zerohour.mid.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_zerohour.mid"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_dmact.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/dmact.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_firxpl.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/firxpl.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_nav.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/nav.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_leftalone.mid.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_leftalone.mid"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_gutag.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/gutag.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_3.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_3.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_bospn.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/bospn.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_cybdth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/cybdth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_start0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_start0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_doropn.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/doropn.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_checkboxbutton.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/checkboxbutton.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_fire.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/fire.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_a0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_a0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_skedth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/skedth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_marchwar.mid.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_marchwar.mid"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_icon.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/icon.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_blank.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/blank.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/layout_wolf.xml.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/layout/wolf.xml"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_u1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_u1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_white.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/white.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_itemup.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/itemup.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_flamst.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/flamst.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_spion.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/spion.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_l1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_l1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_waterdrop.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/waterdrop.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_stleft.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/stleft.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_bosdth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/bosdth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_r1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_r1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_podth3.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/podth3.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_claw.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/claw.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_trans_2.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/trans_2.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_kntdth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/kntdth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_select.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/select.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_y0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_y0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mandth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mandth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_vipain.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/vipain.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_l0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_l0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_down.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/down.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_flamesnd.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/flamesnd.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_left.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/left.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_gatlingun.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/gatlingun.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_dorcls.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/dorcls.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_podth2.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/podth2.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_water.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/water.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_x1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_x1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_pow.mid.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_pow.mid"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_yeah.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/yeah.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_scheist.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/scheist.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_select0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_select0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_trans_3.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/trans_3.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_quicksave.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/quicksave.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_swtchn.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/swtchn.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_b1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_b1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_y1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_y1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_run.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/run.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_x0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_x0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_start1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_start1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_birds.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/birds.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_2.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_2.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_trans_1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/trans_1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_skesit.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/skesit.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_pstop.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/pstop.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_kntsit.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/kntsit.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_view.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/view.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_cybsit.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/cybsit.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_pldeth.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/pldeth.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_u0.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_u0.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_pacman.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/pacman.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_rxplod.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/rxplod.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_trans_4.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/trans_4.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_select1.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_select1.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_popain.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/popain.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_firsht.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/firsht.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_noway.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/noway.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/layout-land_wolf.xml.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/layout-land/wolf.xml"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_evillaugh.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/evillaugh.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_dogattk.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/dogattk.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_bgdth1.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/bgdth1.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_oof.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/oof.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_iconhr.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/iconhr.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_mus_emnycrnr.mid.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/mus_emnycrnr.mid"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/layout-sw600dp_wolf.xml.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/layout-sw600dp/wolf.xml"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_posit1.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/posit1.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_selectbutton.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/selectbutton.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_startbutton.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/startbutton.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_snes_old.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/snes_old.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_dogbark.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/dogbark.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_bdopn.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/bdopn.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_pepain.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/pepain.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_podth1.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/podth1.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_menu.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/menu.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/drawable_open.png.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/drawable/open.png"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_pstart.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/pstart.wav"
+    },
+    {
+        "merged": "com.peterpan.wolfs3d.app-merged_res-5:/raw_eva.wav.flat",
+        "source": "com.peterpan.wolfs3d.app-main-7:/raw/eva.wav"
+    }
+]

@@ -1,0 +1,564 @@
+ninja: Entering directory `/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/Debug/393e4q4q/arm64-v8a'
+[1/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[2/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act3.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[3/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act1.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[4/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/id_vh.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[5/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_agent.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_agent.c:1357:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dx = abs(closest->tilex - player->tilex);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_agent.c:1357:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dx = abs(closest->tilex - player->tilex);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_agent.c:1358:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dy = abs(closest->tiley - player->tiley);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_agent.c:1358:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dy = abs(closest->tiley - player->tiley);
+             ^~~
+3 warnings generated.
+[6/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/id_us.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[7/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/misc.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[8/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_game.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[9/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_text.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[10/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_debug.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[11/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/id_ca.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/id_ca.c:97:52: warning: format specifies type 'int' but the argument has type 'ssize_t' (aka 'long') [-Wformat]
+                printf("CA_FarWrite only wrote %d out of %ld\n", l, length);
+                                               ~~                ^
+                                               %zd
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/id_ca.c:137:50: warning: format specifies type 'int' but the argument has type 'ssize_t' (aka 'long') [-Wformat]
+                printf("CA_FarRead only read %d out of %ld\n", l, size);
+                                             ~~                ^
+                                             %zd
+3 warnings generated.
+[12/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_comm.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[13/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_comm.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[14/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_null.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[15/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_null.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[16/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act2.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:241:5: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                                PlaySoundLocActor(MISSILEHITSNDWL6,ob);
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:244:5: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                                PlaySoundLocActor(MISSILEHITSNDSOD,ob);
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:251:5: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                                PlaySoundLocActor(MISSILEHITSNDSOD,ob);
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:537:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(DEATHSCREAM6SNDWL6,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:553:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(DEATHSCREAM6SNDSOD,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:565:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(AHHHGSNDWL6, ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:567:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(AHHHGSNDSOD, ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:579:6: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                                 PlaySoundLocActor(sounds[US_RndT()%8], ob);
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:585:6: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                                 PlaySoundLocActor(sounds[US_RndT()%3], ob);
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:591:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(NEINSOVASSNDWL6,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:593:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(NEINSOVASSNDSOD,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:598:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(LEBENSNDWL6,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:600:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(LEBENSNDSOD,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:605:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(DOGDEATHSNDWL6,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:607:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(DOGDEATHSNDSOD,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:790:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dx = abs(ob->tilex - player->tilex);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:790:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dx = abs(ob->tilex - player->tilex);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:791:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dy = abs(ob->tiley - player->tiley);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:791:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dy = abs(ob->tiley - player->tiley);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:830:6: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                   PlaySoundLocActor(SSFIRESNDWL6,ob);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:832:6: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                   PlaySoundLocActor(SSFIRESNDSOD,ob);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:837:5: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+           PlaySoundLocActor(MISSILEFIRESNDWL6,ob);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:842:5: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+           PlaySoundLocActor(BOSSFIRESNDWL6,ob);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:845:5: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+           PlaySoundLocActor(SCHABBSTHROWSND,ob);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:848:5: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+           PlaySoundLocActor(FLAMETHROWERSND,ob);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:852:6: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                   PlaySoundLocActor(NAZIFIRESNDWL6,ob);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:854:6: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                   PlaySoundLocActor(NAZIFIRESNDSOD,ob);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:874:3: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                PlaySoundLocActor(DOGATTACKSNDWL6,ob);  // JAB
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:876:3: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                PlaySoundLocActor(DOGATTACKSNDSOD,ob);  // JAB
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:971:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dx = abs(ob->tilex - player->tilex);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:971:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dx = abs(ob->tilex - player->tilex);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:972:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dy = abs(ob->tiley - player->tiley);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:972:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dy = abs(ob->tiley - player->tiley);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1014:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dx = abs(ob->tilex - player->tilex);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1014:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dx = abs(ob->tilex - player->tilex);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1015:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dy = abs(ob->tiley - player->tiley);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1015:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dy = abs(ob->tiley - player->tiley);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1166:3: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                PlaySoundLocActor(KNIGHTMISSILESNDSOD,new);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1171:3: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                PlaySoundLocActor(ANGELFIRESNDSOD,new);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1174:3: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                PlaySoundLocActor(MISSILEFIRESNDSOD,new);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1534:2: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+        PlaySoundLocActor(SCHABBSTHROWSND, new);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1573:2: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+        PlaySoundLocActor(MISSILEFIRESNDWL6, new);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1593:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dx = abs(ob->tilex - player->tilex);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1593:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dx = abs(ob->tilex - player->tilex);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1594:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dy = abs(ob->tiley - player->tiley);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1594:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dy = abs(ob->tiley - player->tiley);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1685:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dx = abs(ob->tilex - player->tilex);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1685:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dx = abs(ob->tilex - player->tilex);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1686:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dy = abs(ob->tiley - player->tiley);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1686:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dy = abs(ob->tiley - player->tiley);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1777:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dx = abs(ob->tilex - player->tilex);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1777:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dx = abs(ob->tilex - player->tilex);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1778:7: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+        dy = abs(ob->tiley - player->tiley);
+             ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1778:7: note: remove the call to 'abs' since unsigned values cannot be negative
+        dy = abs(ob->tiley - player->tiley);
+             ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1953:3: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                PlaySoundLocActor(MECHSTEPSNDWL6, ob);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:1998:2: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+        PlaySoundLocActor(FLAMETHROWERSND, new);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:2113:8: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+                dx = abs(ob->tilex - player->tilex);
+                     ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:2113:8: note: remove the call to 'abs' since unsigned values cannot be negative
+                dx = abs(ob->tilex - player->tilex);
+                     ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:2114:8: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+                dy = abs(ob->tiley - player->tiley);
+                     ^
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:2114:8: note: remove the call to 'abs' since unsigned values cannot be negative
+                dy = abs(ob->tiley - player->tiley);
+                     ^~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c:2467:2: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+        PlaySoundLocActor(YEAHSND, ob);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+48 warnings generated.
+[17/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/jni_wolf.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/jni_wolf.c:216:38: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+        (*g_VM)->AttachCurrentThread (g_VM, (void **) &env, NULL);
+                                            ^~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/jni_wolf.c:249:38: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+        (*g_VM)->AttachCurrentThread (g_VM, (void **) &env, NULL);
+                                            ^~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/jni_wolf.c:282:38: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+        (*g_VM)->AttachCurrentThread (g_VM, (void **) &env, NULL);
+                                            ^~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/jni_wolf.c:336:38: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+        (*g_VM)->AttachCurrentThread (g_VM, (void **) &env, NULL);
+                                            ^~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/jni_wolf.c:380:38: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+        (*g_VM)->AttachCurrentThread (g_VM, (void **) &env, NULL);
+                                            ^~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/jni_wolf.c:419:38: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+        (*g_VM)->AttachCurrentThread (g_VM, (void **) &env, NULL);
+                                            ^~~~~~~~~~~~~~
+7 warnings generated.
+[18/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_play.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[19/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_inter.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[20/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_draw.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[21/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_state.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c:1242:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(HALTSNDWL6,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c:1245:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(HALTSNDSOD,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c:1253:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(SPIONSNDWL6,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c:1256:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(SPIONSNDSOD,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c:1273:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(SCHUTZADSNDWL6,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c:1276:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(SCHUTZADSNDSOD,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c:1284:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(DOGBARKSNDWL6,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c:1287:4: warning: cast to smaller integer type 'int' from 'objtype *' (aka 'struct objstruct *') [-Wpointer-to-int-cast]
+                        PlaySoundLocActor(DOGBARKSNDSOD,ob);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_def.h:903:55: note: expanded from macro 'PlaySoundLocActor'
+#define PlaySoundLocActor(s,ob)         PlaySoundLocGlobal(s,(int)ob,(ob)->x,(ob)->y)
+                                                             ^~~~~~~
+9 warnings generated.
+[22/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_menu.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[23/24] Building C object CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_main.c.o
+warning: unknown warning option '-W-notautological-constant-out-of-range-compare'; did you mean '-Wtautological-constant-out-of-range-compare'? [-Wunknown-warning-option]
+1 warning generated.
+[24/24] Linking C shared library ../../../../build/intermediates/cxx/Debug/393e4q4q/obj/arm64-v8a/libcacau.wolf.so
+FAILED: ../../../../build/intermediates/cxx/Debug/393e4q4q/obj/arm64-v8a/libcacau.wolf.so 
+: && /Users/luizvaldetaro/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/Users/luizvaldetaro/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DLINUX -DANDROID -DANDROID_STUDIO -DSHARED_LIBRARY -Wno-implicit-function-declaration -Wno-implicit-int -Wno-return-type -Wno-pointer-sign -Wno-empty-body -Wno-comment -W-notautological-constant-out-of-range-compare   -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libcacau.wolf.so -o ../../../../build/intermediates/cxx/Debug/393e4q4q/obj/arm64-v8a/libcacau.wolf.so CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/misc.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/id_ca.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/id_vh.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/id_us.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act1.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act2.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act3.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_agent.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_game.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_inter.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_menu.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_play.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_state.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_text.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_main.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_debug.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_comm.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_comm.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_draw.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_null.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_null.c.o CMakeFiles/cacau.wolf.dir/src/main/cpp/jni_wolf.c.o  /Users/luizvaldetaro/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so  /Users/luizvaldetaro/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/libm.so  -latomic -lm && :
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/misc.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/misc.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/id_ca.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/id_ca.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/id_vh.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/id_vh.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/id_us.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/id_us.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act1.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act1.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act2.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act2.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act3.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act3.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_agent.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_agent.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_game.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_game.c.o:(.bss.menuitems+0x0)
+
+ld: error: duplicate symbol: MusicMode
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(MusicMode)
+>>> defined at sd_comm.h:19 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.h:19)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_inter.c.o:(.bss.MusicMode+0x0)
+
+ld: error: duplicate symbol: menuitems
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o:(menuitems)
+>>> defined at wl_menu.h:196 (/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.h:196)
+>>>            CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_inter.c.o:(.bss.menuitems+0x0)
+
+ld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

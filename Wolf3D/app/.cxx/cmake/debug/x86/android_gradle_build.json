@@ -1,0 +1,153 @@
+{
+  "stringTable": {
+    "0": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/luizvaldetaro/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/luizvaldetaro/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcacau_wolf_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DLINUX -DANDROID -DANDROID_STUDIO -DSHARED_LIBRARY -Wno-implicit-function-declaration -Wno-implicit-int -Wno-return-type -Wno-pointer-sign -Wno-empty-body -Wno-comment -W-notautological-constant-out-of-range-compare -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/luizvaldetaro/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/luizvaldetaro/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/luizvaldetaro/TheWolf/Wolf3D/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/luizvaldetaro/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/luizvaldetaro/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "cacau.wolf-Debug-x86": {
+      "buildCommand": "/Users/luizvaldetaro/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/cmake/debug/x86\" cacau.wolf",
+      "buildType": "debug",
+      "toolchain": "2934624080",
+      "abi": "x86",
+      "artifactName": "cacau.wolf",
+      "files": [
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/objs.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/misc.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/id_ca.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/id_vh.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/id_us.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act1.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act2.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_act3.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_agent.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_game.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_inter.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_menu.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_play.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_state.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_text.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_main.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_debug.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/vi_comm.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_comm.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/wl_draw.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/sd_null.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/vi_null.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/cpp/jni_wolf.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/cmake/debug/obj/x86/libcacau.wolf.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2934624080": {
+      "cCompilerExecutable": "/Users/luizvaldetaro/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
