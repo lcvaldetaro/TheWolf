@@ -1,4 +1,4 @@
-#Fri Dec 08 15:45:36 CST 2023
+#Fri Dec 08 16:07:14 CST 2023
 base.0=/Users/luiz/TheWolf/Wolf3D/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

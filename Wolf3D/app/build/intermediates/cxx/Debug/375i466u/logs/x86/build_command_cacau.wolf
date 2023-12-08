@@ -1,0 +1,4 @@
+/Users/luiz/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/x86 \
+  cacau.wolf
