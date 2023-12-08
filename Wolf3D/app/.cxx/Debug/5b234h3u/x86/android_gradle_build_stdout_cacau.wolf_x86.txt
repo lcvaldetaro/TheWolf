@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/5b234h3u/x86'
-[1/1] Linking C shared library ../../../../build/intermediates/cxx/Debug/5b234h3u/obj/x86/libcacau.wolf.so

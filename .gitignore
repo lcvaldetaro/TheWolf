@@ -1,2 +1,16 @@
-.idea
-.gradle
+*.pem
+*.o
+*.class
+*.bin
+*.lock
+
+.cxx
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+/**/.idea/*
+/**/.gradle/*
+/**/.externalNativeBuild/*
+/**/build/*
+/**/build-cache/*
