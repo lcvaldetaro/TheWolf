@@ -1,16 +1,16 @@
-set(CMAKE_HOST_SYSTEM "Darwin-19.6.0")
+set(CMAKE_HOST_SYSTEM "Darwin-22.1.0")
 set(CMAKE_HOST_SYSTEM_NAME "Darwin")
-set(CMAKE_HOST_SYSTEM_VERSION "19.6.0")
+set(CMAKE_HOST_SYSTEM_VERSION "22.1.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake")
+include("/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake")
 
 set(CMAKE_SYSTEM "Android-16")
 set(CMAKE_SYSTEM_NAME "Android")
 set(CMAKE_SYSTEM_VERSION "16")
 set(CMAKE_SYSTEM_PROCESSOR "i686")
 
-set(CMAKE_ANDROID_NDK "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620")
+set(CMAKE_ANDROID_NDK "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620")
 set(CMAKE_ANDROID_STANDALONE_TOOLCHAIN "")
 set(CMAKE_ANDROID_ARCH "x86")
 set(CMAKE_ANDROID_ARCH_ABI "x86")
@@ -19,7 +19,7 @@ set(CMAKE_ANDROID_ARCH_LLVM_TRIPLE "i686-none-linux-android")
 set(CMAKE_ANDROID_NDK_VERSION "23.1")
 set(CMAKE_ANDROID_NDK_DEPRECATED_HEADERS "1")
 set(CMAKE_ANDROID_NDK_TOOLCHAIN_HOST_TAG "darwin-x86_64")
-set(CMAKE_ANDROID_NDK_TOOLCHAIN_UNIFIED "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64")
+set(CMAKE_ANDROID_NDK_TOOLCHAIN_UNIFIED "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64")
 
 # Copyright (C) 2020 The Android Open Source Project
 #

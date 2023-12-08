@@ -1,4 +1,4 @@
-# Install script for directory: /Users/luizvaldetaro/TheWolf/Wolf3D/app
+# Install script for directory: /Users/luiz/TheWolf/Wolf3D/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-objdump")
+  set(CMAKE_OBJDUMP "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

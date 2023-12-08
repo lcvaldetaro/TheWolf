@@ -6,9 +6,9 @@
     "deprecated": false,
     "default": true
   },
-  "cxxBuildFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/x86",
-  "soFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/375i466u/obj/x86",
-  "soRepublishFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/cmake/debug/obj/x86",
+  "cxxBuildFolder": "/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/x86",
+  "soFolder": "/Users/luiz/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/375i466u/obj/x86",
+  "soRepublishFolder": "/Users/luiz/TheWolf/Wolf3D/app/build/intermediates/cmake/debug/obj/x86",
   "abiPlatformVersion": 16,
   "cmake": {
     "effectiveConfiguration": {
@@ -32,15 +32,15 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx",
-      "intermediatesBaseFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates",
-      "intermediatesFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/cxx",
+      "cxxFolder": "/Users/luiz/TheWolf/Wolf3D/app/.cxx",
+      "intermediatesBaseFolder": "/Users/luiz/TheWolf/Wolf3D/app/build/intermediates",
+      "intermediatesFolder": "/Users/luiz/TheWolf/Wolf3D/app/build/intermediates/cxx",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app",
-      "moduleBuildFile": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/build.gradle",
-      "makeFile": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/CMakeLists.txt",
+      "moduleRootFolder": "/Users/luiz/TheWolf/Wolf3D/app",
+      "moduleBuildFile": "/Users/luiz/TheWolf/Wolf3D/app/build.gradle",
+      "makeFile": "/Users/luiz/TheWolf/Wolf3D/app/CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620",
+      "ndkFolder": "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620",
       "ndkVersion": "23.1.7779620",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
@@ -104,32 +104,32 @@
           "default": true
         }
       ],
-      "cmakeToolchainFile": "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "cmakeToolchainFile": "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
       "cmake": {
         "isValidCmakeAvailable": true,
-        "cmakeExe": "/Users/luizvaldetaro/Library/Android/sdk/cmake/3.22.1/bin/cmake",
+        "cmakeExe": "/Users/luiz/Library/Android/sdk/cmake/3.22.1/bin/cmake",
         "minimumCmakeVersion": "3.22.1"
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "ARM64_V8A": "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "X86": "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "X86_64": "/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "ARMEABI_V7A": "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D",
-        "sdkFolder": "/Users/luizvaldetaro/Library/Android/sdk",
+        "rootBuildGradleFolder": "/Users/luiz/TheWolf/Wolf3D",
+        "sdkFolder": "/Users/luiz/Library/Android/sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },
       "outputOptions": [],
-      "ninjaExe": "/Users/luizvaldetaro/Library/Android/sdk/cmake/3.22.1/bin/ninja"
+      "ninjaExe": "/Users/luiz/Library/Android/sdk/cmake/3.22.1/bin/ninja"
     },
     "prefabClassPaths": [],
     "prefabPackages": [],
@@ -140,27 +140,27 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/prefab/x86",
+  "prefabFolder": "/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/prefab/x86",
   "isActiveAbi": true,
   "fullConfigurationHash": "375i466u1r723e2e4z6a5t174u652j6w1c1i1b6y563j1t6q2r6n4o1x164o3c13",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 7.4.2.\n#   - $NDK is the path to NDK 23.1.7779620.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/app\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_PLATFORM\u003dandroid-16\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/app/.cxx/Debug/$HASH/$ABI\n-GNinja",
   "configurationArguments": [
-    "-H/Users/luizvaldetaro/TheWolf/Wolf3D/app",
+    "-H/Users/luiz/TheWolf/Wolf3D/app",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d16",
     "-DANDROID_PLATFORM\u003dandroid-16",
     "-DANDROID_ABI\u003dx86",
     "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
-    "-DANDROID_NDK\u003d/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620",
-    "-DCMAKE_ANDROID_NDK\u003d/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620",
-    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/luizvaldetaro/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
-    "-DCMAKE_MAKE_PROGRAM\u003d/Users/luizvaldetaro/Library/Android/sdk/cmake/3.22.1/bin/ninja",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/375i466u/obj/x86",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/375i466u/obj/x86",
+    "-DANDROID_NDK\u003d/Users/luiz/Library/Android/sdk/ndk/23.1.7779620",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/luiz/Library/Android/sdk/ndk/23.1.7779620",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/luiz/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/luiz/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/luiz/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/375i466u/obj/x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/luiz/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/375i466u/obj/x86",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-B/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/x86",
+    "-B/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/375i466u/x86",
     "-GNinja"
   ],
-  "intermediatesParentFolder": "/Users/luizvaldetaro/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/375i466u"
+  "intermediatesParentFolder": "/Users/luiz/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/375i466u"
 }

@@ -1,49 +1,49 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:1-17:12
-INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:1-17:12
-INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:1-17:12
+ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:1-17:12
+INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:1-17:12
+INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:1-17:12
 	package
-		INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:1-17:12
-		INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:1-17:12
+		INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:11-69
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:3:11-69
 application
-ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:5:5-14:19
+ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:5:5-14:19
 	android:label
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:5:75-107
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:5:75-107
 	android:icon
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:5:45-74
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:5:45-74
 	android:allowBackup
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:5:18-44
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:5:18-44
 activity#com.peterpan.wolfs3d.WolfLauncher
-ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:6:9-13:20
+ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:6:9-13:20
 	android:label
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:7:19-51
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:7:19-51
 	android:name
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:6:19-67
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:6:19-67
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:9:13-12:29
+ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:9:13-12:29
 action#android.intent.action.MAIN
-ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:10:17-69
+ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:10:17-69
 	android:name
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:10:25-66
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:10:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:11:17-77
+ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:11:17-77
 	android:name
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:11:27-74
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml:11:27-74
 uses-sdk
-INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
-INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
-INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
-INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
-		ADDED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/luizvaldetaro/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+		ADDED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/luiz/TheWolf/Wolf3D/app/src/main/AndroidManifest.xml

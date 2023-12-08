@@ -1,0 +1,25 @@
+# ninja log v5
+1	693	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/objs.c.o	c02f57449b86c9fb
+2	695	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act3.c.o	452542d1df081251
+6	726	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_debug.c.o	93789f4f856ea1d
+1	734	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_vh.c.o	4a9f3edafb4646d9
+2	738	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_us.c.o	4afe5bd0218b27fb
+5	744	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_text.c.o	6ba9e5277680a5b5
+7	748	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_comm.c.o	4a42cbccc6ebc03d
+1	749	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/misc.c.o	581554948ca8d13b
+2	750	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act1.c.o	3d26848aa8740cbc
+5	752	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_play.c.o	3b74405bed951f56
+2	752	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_agent.c.o	2fbbc2d009890284
+1	756	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/id_ca.c.o	fd106d9973a0f083
+5	757	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_state.c.o	65a9095368f6d368
+3	757	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_game.c.o	32061c741413f203
+4	765	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_inter.c.o	839d791e25515945
+2	787	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_act2.c.o	a5ab71a6380a6685
+6	801	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_main.c.o	c4664c5077ced5b0
+4	844	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_menu.c.o	8862a76471c1dde9
+694	867	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_comm.c.o	39cc504e3458d823
+730	878	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/sd_null.c.o	f651f3b6e589a74e
+734	891	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/vi_null.c.o	b5765ae39aa71142
+738	900	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/jni_wolf.c.o	f90e9c305629eab2
+696	913	1702070194	CMakeFiles/cacau.wolf.dir/src/main/cpp/wl_draw.c.o	7fc13da30615a360
+913	1007	1702070194	../../../../build/intermediates/cxx/Debug/5b234h3u/obj/x86/libcacau.wolf.so	beebef368de3a7ca

@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/luiz/TheWolf/Wolf3D/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/luiz/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/5b234h3u/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/luiz/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/5b234h3u/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "cacau.wolf::@6890427a1f51a3e7e1df": {
+      "artifactName": "cacau.wolf",
+      "abi": "x86",
+      "output": "/Users/luiz/TheWolf/Wolf3D/app/build/intermediates/cxx/Debug/5b234h3u/obj/x86/libcacau.wolf.so",
+      "runtimeFiles": []
+    }
+  }
+}
