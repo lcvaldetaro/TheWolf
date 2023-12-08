@@ -1,0 +1,26 @@
+Submitted by:IGN_Cheats
+Ammo & health cache
+
+When you are fighting Hans Gr¨sse, boss of episode 1, go to the main room, the one with all the wall hangings and rows of columns. Go to the left side of the room, there should be three golden swastikas hanging on the wall. Walk up to the middle one and press SPACE. This will open a secret door which leads into a room containing health, ammo, and the chaingun. Visit this room before you take on Hans, and revisit it if you exhaust your ammo during the fray, or take too many hits.
+Submitted by:IGN_Cheats
+Extra Level
+
+In the room at the end of the first level with the grey door leading to the second level, there is a secret passage. Immediately upon entering, turn right. In the corner of the right wall and the wall with the door that you just came through, press the SPACEBAR near the right wall to reveal a secret passage. Head straight until you hit a wall. Turn right and press the SPACEBAR again to reveal a second passage. There will be a grey door in this room leading to a secret level with purple walls.
+Submitted by:IGN_Cheats
+Cheat Codes
+
+Start the game with the command "wolf3d goobers". While playing, press LEFT ALT + LEFT SHIFT + BACKSPACE at the same time to enable cheat codes. To use them, hold any of the key combinations below:
+
+TAB+B change the border color TAB+B Border color TAB+C display statistics for the current level TAB+E warp to the end of the current level TAB+F displays your coordinates TAB+G God Mode TAB+H removes health TAB+I boost your weapons, health and ammo TAB+M shows current memory usage TAB+P pause the game TAB+Q quit the game TAB+S activates a slow-motion mode TAB+T graphics ...
+[Show More]
+Submitted by:IGN_Cheats
+Cheat Code (Version 1.0)
+
+Start the game by entering the command "WOLF3D /NEXT". While playing, press TAB + CTRL + ENTER to access the cheat codes above. Version 1.0 had an extra cheat as well:
+
+TAB+N walk through walls
+Submitted by:IGN_Cheats
+Health and Ammo
+
+While playing, press the keys "I", "L" and "M" at the same time. This code will give you 100% life, 99 ammo, both keys, and all of the guns. But beware: this code takes away your score too.
+

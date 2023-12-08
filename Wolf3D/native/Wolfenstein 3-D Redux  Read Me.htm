@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head><title>Wolfenstein 3-D Redux: Read Me</title><META http-equiv=Content-Type content="text/html; charset=iso-8859-1"></head><body><pre>
+Wolfenstein 3-D Redux Version 0.01i - README & Installation Guide
+-----------------------------------------------------------------
+
+Welcome to the Wolfenstein 3-D Redux version 0.01i release! This
+README provides helpful hints to help you get the software up and
+running.
+
+Please remember that this is Pre-Alpha software, not all features are
+implemented yet, and not everything might work as expected.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details.
+
+===============================================================================
+-- System Requirements --------------------------------------------------------
+===============================================================================
+[Operating System]: Windows 9x/Me/2000/XP, FreeBSD x86 -STABLE or -CURRENT, 
+Linux x86 2.4 kernel or higher.
+
+[Processor]: Pentium 133Mhz, AMD Athlon, processor or higher
+
+[Hard Disk Space]: 35 MB free
+
+[Video]: Any Windows-compatible video card(NVIDIA GeForce 2 or ATI Radeon with
+at least 32 megs of video memory recommended)
+
+[Sound]: Windows-compatible sound card. On Linux/FreeBSD you will need to 
+install OpenAL from: http://www.openal.org
+
+===============================================================================
+-- Installing and running Wolfenstein 3-D Redux -------------------------------
+===============================================================================
+
+---------------------
+Windows	9x/NT/2000/XP
+---------------------
+
+1. Unzip Wolfenstein 3-D Redux to a directory of your choice.
+
+2. Copy your original Wolfenstein 3-D and/or Spear of Destiny data files (They 
+   MUST have the extension .WL6 or .SOD) into the sub-directory called base.
+   /basedirectory/wolf3dredux/base/
+
+   Whereby you replace basedirectory with the directory you unzipped the
+   Wolf3D Redux files into. 
+
+3. Now run wolfextractor.exe
+
+4. When wolfextractor.exe has finished successfully run wolf3dredux.exe and
+   enjoy.
+
+
+Notes:
+You can switch between Wolfenstein 3-D and Spear of Destiny on-the-fly
+by going to console ("~") and typing "g_version 1" for Spear of Destiny or 
+"g_version 0" for Wolfenstein 3-D then start a new game.
+
+
+All of the Wolfenstein 3-D/Spear of Destiny data files remain copyrighted, so 
+you can not redistribute data from the original game.
+
+
+---------------------
+Linux / FreeBSD
+---------------------
+
+1. Unpack the software from its distribution format.
+   # tar -zxvf wolf3dredux-xxxx.tar.gz
+
+2. Copy your original Wolfenstein 3-D and/or Spear of Destiny data files (They
+   MUST have the extension .WL6 and/or .SOD) into the sub-directory called base.
+   /basedirectory/wolf3dredux/base/
+
+   Whereby you replace basedirectory with the directory you extracted the
+   Wolf3D Redux files into.
+
+3. Now run wolfextractor
+   # ./wolfextractor
+
+4. When wolfextractor has finished successfully run wolf3dredux and enjoy. 
+
+
+Notes:
+You can switch between Wolfenstein 3-D and Spear of Destiny on-the-fly
+by going to console ("~") and typing "g_version 1" for Spear of Destiny or 
+"g_version 0" for Wolfenstein 3-D then start a new game.
+
+
+
+All of the Wolfenstein 3-D/Spear of Destiny data files remain copyrighted, so 
+you can not redistribute data from the original game.
+
+
+===============================================================================
+-- Macintosh Wolfenstein 3-D --------------------------------------------------
+===============================================================================
+How to transfer the Macintosh binary of Wolfenstein 3-D onto the Operating 
+System that runs wolfextractor is beyond the scope of this README.
+
+The Mac binary that wolfextractor recognizes is, according to the readme, 
+version 1.0.2 of the "Second Encounter". The MD5 checksum of this file is
+74ce0dd77716a63bb02294f264078173
+
+You must change the file extension to "mac", example "Wolfenstein3D.mac",
+before copying the file into the sub-directory called base.
+/basedirectory/wolf3dredux/base/
+
+Whereby you replace basedirectory with the directory you extracted the
+Wolf3D Redux files into.
+
+Notes:
+This version of wolfextractor does not extract sounds (AIF or IFF),
+PICT images or level data.
+
+
+===============================================================================
+-- Default Controls -----------------------------------------------------------
+===============================================================================
+
+(Key/Button)	Action
+-------------------------------
+W		Walk forward
+S		Walk back
+A		Move left
+D		Move right
+LEFTARROW	Turn left
+RIGHTARROW	Turn right
+SHIFT 		Run
+SPACEBAR	Open door
+CTRL		Attack
+ALT		Strafe
+MOUSE1      	Attack
+MOUSE2		Strafe
+F12		Screenshot
+
+===============================================================================
+-- Console Commands -----------------------------------------------------------
+===============================================================================
+To access the console press the ("~") key during the game and enter one of the
+following commands:
+
+give (all) -Give all items to the player.
+notarget -No enemies will target player.
+god -Player becomes invincible.
+map (name) -Load map.
+joy_advancedupdate -Initialize the joystick's advanced features.
+quit -Quit the game.
+intermission -Skip to intermission
+intro (screen) -View intro screens.
+listTextures -List all textures loaded.
+r_strings -Display renderer string.
+screenshot -Take a screenshot.
+vid_front -Switch the display to use the front buffer.
+vid_restart -Restart the video system.
+conDump (filename) -Dump the contents of the console to a file.
+clear -Clear the console buffer.
+error -Shutdown game with error.
+dir -Display game directory contents.
+link (from) (to) -Alter the actual location of a directory inside the game.
+path -Display path and link information.
+listBinds -Display all the binded keys.
+unbindall -Unbind all keys.
+unbind (key) -Unbind a single key.
+bind (key) [command] -Attach a command to a key.
+listCvars -Display all cvars.
+set (variable) (value) -Set or create a variable.
+wait -Wait one game tic.
+alias -Display alias information.
+exec (filename) -Execute a console script file.
+listCmds -Display all console commands.
+
+===============================================================================
+-- Future Prospects -----------------------------------------------------------
+===============================================================================
+-Screen Fades on Menu
+-Deathcam(tm)
+-BJ run/jump ending
+-Save/Load game
+-Automap
+-Better mouse/joystick/keyboard input
+-Network Multiplayer (co-op/Deathmatch)
+-Lighting.
+
+===============================================================================
+-- Notes ----------------------------------------------------------------------
+===============================================================================
+Be sure to check out http://wolf3dredux.sourceforge.net for the latest
+releases and news.
+
+Don't fail to write me often and give me your advice and suggestions,
+which I always appreciate. I get a good many emails from users, but 
+every one is a joy to me and I answer them as soon as I can find time
+to do so.
+-Michael Liebscher
+
+email: johnnycanuck( at )users( dot )sourceforge( dot )net
+
+
+===============================================================================
+-- Legal ----------------------------------------------------------------------
+===============================================================================
+Wolfenstein 3D is a trademark of id Software, Inc. and copyright 
+(C)1992 id Software, Inc. All Rights Reserved. Macintosh is a trademark of 
+Apple Computer, Inc. All other trademarks are trademarks of their respective
+holders.
+</pre>
