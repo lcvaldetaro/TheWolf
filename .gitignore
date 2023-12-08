@@ -9,8 +9,11 @@
 # Local configuration file (sdk path, etc)
 local.properties
 
-/**/.idea/*
-/**/.gradle/*
-/**/.externalNativeBuild/*
-/**/build/*
-/**/build-cache/*
+/Wolf3D/.idea/*
+/Wolf3D/.gradle/*
+/Wolf3D/.externalNativeBuild/*
+/Wolf3D/build/*
+/Wolf3D/build-cache/*
+/Wolf3D/app/build/*
+/Wolf3D/app/.cxx/*
+
