@@ -5,9 +5,11 @@ typedef	enum	{
 					sdm_Off,
 					sdm_PC,sdm_AdLib
 				}	SDMode;
+#ifndef GLOBALS_DEFINED
 typedef	enum	{
 					smm_Off,smm_AdLib
 				}	SMMode;
+#endif
 typedef	enum	{
 					sds_Off,sds_PC,sds_SoundBlaster
 				}	SDSMode;
@@ -16,7 +18,7 @@ extern boolean AdLibPresent, SoundBlasterPresent;
 
 extern	SDMode		SoundMode;
 extern	SDSMode		DigiMode;
-SMMode		MusicMode; // Vladimir extern	
+extern  SMMode		MusicMode; // Vladimir extern
 
 extern void SD_Startup();
 extern void SD_Shutdown();

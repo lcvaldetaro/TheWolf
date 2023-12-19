@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/5b234h3u/x86_64'
-ninja: no work to do.

@@ -36,7 +36,9 @@ typedef uint16_t	word;
 typedef uint32_t	longword;
 typedef uint32_t	dword;
 
+#ifndef GLOBALS_DEFINED
 typedef long fixed;
+#endif
 
 typedef void * memptr;
 

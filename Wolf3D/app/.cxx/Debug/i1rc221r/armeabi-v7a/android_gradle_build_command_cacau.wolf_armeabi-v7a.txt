@@ -1,7 +1,0 @@
-Executable : /Users/luizvaldetaro/Library/Android/sdk/cmake/3.18.1/bin/ninja
-arguments : 
--C
-/Users/luizvaldetaro/TheWolf/Wolf3D/app/.cxx/Debug/i1rc221r/armeabi-v7a
-cacau.wolf
-jvmArgs : 
-

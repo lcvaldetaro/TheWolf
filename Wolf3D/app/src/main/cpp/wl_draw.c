@@ -11,7 +11,7 @@
 static unsigned wallheight[MAXVIEWWIDTH];
 
 /* refresh variables */
-fixed viewx, viewy;		/* the focal point */
+extern fixed viewx, viewy;		/* the focal point */
 
 static int viewangle;
 

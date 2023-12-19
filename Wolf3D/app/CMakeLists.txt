@@ -17,7 +17,7 @@ find_library( log-lib log )
 find_library( m-lib m )
 find_library( z-lib z )
 
-SET (CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -DLINUX -DANDROID -DANDROID_STUDIO -DSHARED_LIBRARY -Wno-implicit-function-declaration -Wno-implicit-int -Wno-return-type -Wno-pointer-sign -Wno-empty-body -Wno-comment -W-notautological-constant-out-of-range-compare " )
+SET (CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -DLINUX -DANDROID -DANDROID_STUDIO -DSHARED_LIBRARY -Wno-implicit-function-declaration -Wno-implicit-int -Wno-return-type -Wno-pointer-sign -Wno-empty-body -Wno-comment -W-notautological-constant-out-of-range-compare -Wno-incompatible-pointer-types -Wno-format -Wno-absolute-value -Wno-pointer-to-int-cast" )
 SET (CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} ${GCC_COMPILATION_FLAGS}" )
 
 

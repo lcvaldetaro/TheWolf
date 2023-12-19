@@ -1,3 +1,5 @@
+
+#include "globals.h"
 #include "wl_def.h"
 
 /*

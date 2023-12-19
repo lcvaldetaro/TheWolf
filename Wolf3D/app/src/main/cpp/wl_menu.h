@@ -182,7 +182,7 @@ void CheckForEpisodes(void);
 // VARIABLES
 //
 
-enum
+static enum
 {
 	newgame,
 	soundmenu,

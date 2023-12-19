@@ -1,7 +1,0 @@
-Executable : /Users/luiz/Library/Android/sdk/cmake/3.18.1/bin/ninja
-arguments : 
--C
-/Users/luiz/TheWolf/Wolf3D/app/.cxx/Debug/5b234h3u/x86
-cacau.wolf
-jvmArgs : 
-

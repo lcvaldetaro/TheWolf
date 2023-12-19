@@ -2,14 +2,18 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.2"
+    //buildToolsVersion "30.0.2"
     namespace 'com.peterpan.wolfs3d'
 
     defaultConfig {
         applicationId "com.peterpan.wolfs3d"
         minSdkVersion 4
         targetSdkVersion 30
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
     }
+
 
     buildTypes {
         release {
