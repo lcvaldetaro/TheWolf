@@ -7,7 +7,7 @@
 .cxx
 
 # Local configuration file (sdk path, etc)
-local.properties
+/Wolf3D/local.properties
 
 /Wolf3D/.idea/*
 /Wolf3D/.gradle/*
