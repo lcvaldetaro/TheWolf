@@ -2,11 +2,7 @@ package com.peterpan.wolfs3d;
 
 import game.controller.ControllerListener;
 import game.controller.SNESController;
-import com.peterpan.wolfs3d.R;
-
 import java.io.File;
-
-import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.os.Bundle;
@@ -30,9 +26,7 @@ import wolf.util.LibraryLoader;
 import wolf.util.ScanCodes;
 import wolf.util.WolfTools;
 
-
-
-public class WolfLauncher extends Activity 
+public class WolfLauncher extends BaseActivity
 	implements Natives.EventListener, ControllerListener 
 {
 	private static final String TAG = "Wolf3D";

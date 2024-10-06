@@ -4,16 +4,9 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:splitMotionEvents="true"
+	android:paddingTop="32dp"
 	android:background="#000000"
     >
-	<TextView
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:gravity="center_horizontal"
-		android:paddingBottom="8.dp"
-		android:textSize="24sp"
-		android:text="\nWolfstein 3D for Android"
-		/>
 
    <LinearLayout
         android:orientation="horizontal"
