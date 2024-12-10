@@ -3,7 +3,6 @@ plugins {
     id 'kotlin-android'
 }
 
-
 android {
     compileSdk 35
     namespace 'com.peterpan.wolfs3d'
@@ -40,6 +39,6 @@ android {
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("androidx.activity:activity-ktx:1.9.3")
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity.ktx)
 }
