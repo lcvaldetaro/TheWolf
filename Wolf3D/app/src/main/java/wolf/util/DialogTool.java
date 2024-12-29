@@ -1,7 +1,7 @@
 package wolf.util;
 
-import com.peterpan.wolfs3d.WolfLauncher;
-import com.peterpan.wolfs3d.WolfLauncher.eNavMethod;
+import com.peterpan.wolfs3d.WolfActivity;
+import com.peterpan.wolfs3d.WolfActivity.eNavMethod;
 
 import com.peterpan.wolfs3d.R;
 
@@ -34,7 +34,7 @@ public class DialogTool
 	        .setTitle("Navigation Method")
 	        .setItems(mListItems, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int which) {
-                	boolean port = ((WolfLauncher)ctx).isPortrait();
+                	boolean port = ((WolfActivity)ctx).isPortrait();
                 	
                 	if (!port) {
                         final View v = ((Activity)ctx).findViewById(R.id.snes);
@@ -46,13 +46,13 @@ public class DialogTool
     	                		v.setVisibility(View.GONE);
     	                		v1.setVisibility(View.GONE);
     	                		v2.setVisibility(View.GONE);
-    	                		WolfLauncher.mNavMethod = eNavMethod.KBD;
+    	                		WolfActivity.mNavMethod = eNavMethod.KBD;
                         		break;
                         	case 1:
     	                		v.setVisibility(View.VISIBLE);
     	                		v1.setVisibility(View.VISIBLE);
     	                		v2.setVisibility(View.VISIBLE);
-    	                		WolfLauncher.mNavMethod = eNavMethod.PANEL;
+    	                		WolfActivity.mNavMethod = eNavMethod.PANEL;
     	                		break;
                         }
                 	}
@@ -66,7 +66,7 @@ public class DialogTool
 	                			Toast(ctx, "Cannot use keyboard in portrait mode");
 	                    		break;
 							case 1:
-		                		WolfLauncher.mNavMethod = eNavMethod.PANEL;
+		                		WolfActivity.mNavMethod = eNavMethod.PANEL;
 		                		// show panel ctls
 		                		v.setVisibility(View.VISIBLE);
     	                		v1.setVisibility(View.VISIBLE);
@@ -153,7 +153,7 @@ public class DialogTool
 	 * @param text
 	 */
 	public static void PostMessageBox (final Context ctx, final String text) {
-		WolfLauncher.mHandler.post(new Runnable() {
+		WolfActivity.mHandler.post(new Runnable() {
 			public void run() {
 				MessageBox(ctx, ctx.getString(R.string.app_name), text);
 			}

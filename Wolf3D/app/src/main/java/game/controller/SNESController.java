@@ -4,7 +4,7 @@ import wolf.jni.Natives;
 import wolf.util.DialogTool;
 import wolf.util.ScanCodes;
 
-import com.peterpan.wolfs3d.WolfLauncher;
+import com.peterpan.wolfs3d.WolfActivity;
 import com.peterpan.wolfs3d.R;
 
 import android.app.Activity;
@@ -19,14 +19,14 @@ public class SNESController
 {
 	public static final String TAG = "SNESC";
 	private Activity mView;
-	private WolfLauncher wL;
+	private WolfActivity wL;
 	
 	private ControllerListener mListener;
 	
 
 	public SNESController(Context context) {
 		mView = (Activity)context;
-		wL = (WolfLauncher)context;
+		wL = (WolfActivity)context;
 		init();
 	}
 

@@ -1,8 +1,8 @@
 
 package wolf.util;
 
-import com.peterpan.wolfs3d.WolfLauncher;
-import com.peterpan.wolfs3d.WolfLauncher.eNavMethod;
+import com.peterpan.wolfs3d.WolfActivity;
+import com.peterpan.wolfs3d.WolfActivity.eNavMethod;
 
 import android.view.KeyEvent;
 
@@ -78,7 +78,7 @@ public class ScanCodes {
 	{
 		switch (keysym) {
 			case KeyEvent.KEYCODE_1: 
-				return ( WolfLauncher.mNavMethod == eNavMethod.KBD) ? sc_UpArrow : sc_1;
+				return ( WolfActivity.mNavMethod == eNavMethod.KBD) ? sc_UpArrow : sc_1;
 			case KeyEvent.KEYCODE_2:
 				return sc_2;
 			case KeyEvent.KEYCODE_3:
@@ -99,7 +99,7 @@ public class ScanCodes {
 				return sc_0;
 				
 			case KeyEvent.KEYCODE_A:
-				return ( WolfLauncher.mNavMethod == eNavMethod.KBD) ? sc_DownArrow : sc_A;
+				return ( WolfActivity.mNavMethod == eNavMethod.KBD) ? sc_DownArrow : sc_A;
 
 				//return sc_A;
 			case KeyEvent.KEYCODE_B:
@@ -133,7 +133,7 @@ public class ScanCodes {
 			case KeyEvent.KEYCODE_P:
 				return sc_P;
 			case KeyEvent.KEYCODE_Q:
-				return ( WolfLauncher.mNavMethod == eNavMethod.KBD) ? sc_LeftArrow : sc_Q;
+				return ( WolfActivity.mNavMethod == eNavMethod.KBD) ? sc_LeftArrow : sc_Q;
 
 				//return sc_Q;
 			case KeyEvent.KEYCODE_R:
@@ -148,7 +148,7 @@ public class ScanCodes {
 				return sc_V;
 				
 			case KeyEvent.KEYCODE_W:
-				return ( WolfLauncher.mNavMethod == eNavMethod.KBD) ? sc_RightArrow : sc_W;
+				return ( WolfActivity.mNavMethod == eNavMethod.KBD) ? sc_RightArrow : sc_W;
 
 				//return sc_W;
 			case KeyEvent.KEYCODE_X:

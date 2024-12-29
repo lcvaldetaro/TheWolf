@@ -26,7 +26,7 @@ import wolf.util.LibraryLoader;
 import wolf.util.ScanCodes;
 import wolf.util.WolfTools;
 
-public class WolfLauncher extends BaseActivity
+public class WolfActivity extends BaseActivity
 	implements Natives.EventListener, ControllerListener 
 {
 	private static final String TAG = "Wolf3D";
@@ -46,7 +46,7 @@ public class WolfLauncher extends BaseActivity
 	
 	private String mGameDir = WolfTools.WOLF_FOLDER ;
 	
-	public WolfLauncher dClient = this;
+	public WolfActivity dClient = this;
 	
 	// Navigation
 	public static enum eNavMethod  {KBD, PANEL} ; //, ACC};
@@ -90,47 +90,23 @@ public class WolfLauncher extends BaseActivity
         api_level =  android.os.Build.VERSION.SDK_INT;
         Log.d (TAG,"API Level Detected = " + api_level);
 
-/*	        if (api_level > 10) {
-	        	Log.d(TAG,"New way");
-		    	Display display = getWindowManager().getDefaultDisplay();
-		    	Point size = new Point();
-		    	display.getSize(size);
-		    	width = size.x;
-		    	height = size.y;
-		    	Log.d (TAG,"Screen detected is " + size.x + "," + size.y);
-		        if (size.y > size.x) {
-		        	portrait = true;
-			        width = size.x;
-			        height = size.y;
-			        pad_height = (int) (width * 0.75); 
-		        }
-		        else {
-		        	portrait = false;
-			        width = size.y;
-			        height = size.x;
-			        pad_height = (int) (width * 0.75); 
-		        }
-	        }
-	        else
-*/	        
-	        {
-	        	Log.d(TAG,"Old way");
-		        DisplayMetrics dm = new DisplayMetrics();
-		        getWindowManager().getDefaultDisplay().getMetrics(dm);
-		        Log.d (TAG,"Screen detected is " + dm.widthPixels + "," + dm.heightPixels);
-		        if (dm.widthPixels < dm.heightPixels ) {
-		        	portrait   = true;
-			        width      = dm.widthPixels;
-			        height     = dm.heightPixels;
-			        pad_height = (int) (width * 0.75); 
-		        }
-		        else {
-		        	portrait   = false;
-			        width      = dm.heightPixels;
-			        height     = dm.widthPixels;
-			        pad_height = (int) (width * 0.75); 
-		        }
-	        }
+
+		Log.d(TAG,"Old way");
+		DisplayMetrics dm = new DisplayMetrics();
+		getWindowManager().getDefaultDisplay().getMetrics(dm);
+		Log.d (TAG,"Screen detected is " + dm.widthPixels + "," + dm.heightPixels);
+		if (dm.widthPixels < dm.heightPixels ) {
+			portrait   = true;
+			width      = dm.widthPixels;
+			height     = dm.heightPixels;
+			pad_height = (int) (width * 0.75);
+		}
+		else {
+			portrait   = false;
+			width      = dm.heightPixels;
+			height     = dm.widthPixels;
+			pad_height = (int) (width * 0.75);
+		}
 
         if (isPortrait())
         	Log.d(TAG,"Portrait");
@@ -147,8 +123,7 @@ public class WolfLauncher extends BaseActivity
         }
 
         mGameDir += getString(R.string.pkg_name) + File.separator + "files" + File.separator;
-        
-        
+
         // Initial Image size
         Log.e(TAG,"Will set image size");
         if (isPortrait()) {
@@ -296,14 +271,6 @@ public class WolfLauncher extends BaseActivity
     
     public boolean isPortrait() {
     	return portrait;
-    	/*
-    	//int ori = getWindowManager().getDefaultDisplay().getOrientation();
-    	int ori = getResources().getConfiguration().orientation;
-    	Log.e(TAG, "orientation is " + ori);
-    	if (ori == Surface.ROTATION_0 || ori == Surface.ROTATION_180)
-    		return true;
-    	return false;
-    	*/
     }
     
     @Override
@@ -448,28 +415,8 @@ public class WolfLauncher extends BaseActivity
     @Override
     public boolean onTrackballEvent(MotionEvent event) 
     {
-    	/*
-    	final int MOUSE_HSENSITIVITY = 90;
-        final int MOUSE_VSENSITIVITY = 40;
-            	
-    	if(event.getAction() == MotionEvent.ACTION_MOVE) {
-            float x = event.getX() * event.getXPrecision() * MOUSE_HSENSITIVITY;
-            float y = event.getY() * event.getYPrecision() * MOUSE_VSENSITIVITY;
-
-            try {
-                if(mGameStarted) {
-                	System.out.println("onTrackballEvent x=" +x + "y=" + y);
-                	Natives.motionEvent(0, (int)x , -(int)y );
-                }
-				
-			} catch (UnsatisfiedLinkError e) {
-				System.err.println("onTrackballEvent " + e);
-			}
-    	}
-    	*/
     	return false;
     }
-    
     
 	/**
 	 * 
@@ -488,14 +435,13 @@ public class WolfLauncher extends BaseActivity
     		}
     	}
     	
-    	
-    	// setup game files
+    	/*// setup game files
     	try {
     		WolfTools.installGame(this, baseDir, dir);
 		} catch (Exception e) {
 			MessageBox("Fatal Error", "Unable to set game files:" + e.toString());
 			return;
-		}
+		}*/
     	
 
     	Log.d(TAG, "Start game base dir: " + baseDir + " game=" + game + " port:" + portrait);
