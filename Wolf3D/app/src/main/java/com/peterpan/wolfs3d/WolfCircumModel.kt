@@ -23,7 +23,7 @@ class WolfCircumModel : CircumModel<WolfState, WolfIntentCommand, WolfEffect>() 
         CoroutineScope(Dispatchers.IO).launch {
           Looper.prepare() // needed to issue toasts
 
-          val folder = "/data/data/${App.packagename}/files/"
+          val folder = "${App.packageFolder}/files/"
           val dir = File(folder)
 
             if (!dir.exists() ) {
@@ -32,9 +32,11 @@ class WolfCircumModel : CircumModel<WolfState, WolfIntentCommand, WolfEffect>() 
                     Log.e(TAG, "Cannot create folder ${folder}")
                 }
             }
+
             try {
                 WolfTools.installGame(App.appContext, folder, dir)
-            } catch (e: Exception) {
+            }
+            catch (e: Exception) {
                 Toast(App.appContext, "Fatal Error Unable to install game files")
                 Log.e(TAG, "Cannot install files on folder ${folder}")
                 e.printStackTrace()
@@ -42,7 +44,7 @@ class WolfCircumModel : CircumModel<WolfState, WolfIntentCommand, WolfEffect>() 
 
             }
             Toast(App.appContext, "All game files installed")
-            sleep (2000)     // wait for all the toasts to finish
+            sleep (2000) // wait for all the toasts to finish
             setState(WolfState.Loaded)
         }
     }

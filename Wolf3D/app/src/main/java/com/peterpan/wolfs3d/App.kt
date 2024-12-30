@@ -10,11 +10,10 @@ class App : Application()  {
     companion object {
         lateinit var appContext : Context
         lateinit var directoryFile : File
+        @JvmStatic
         lateinit var packageFolder: String
-        lateinit var packagename: String
         var versionString = ""
         var versionBuild  = 0L
-        var gameInstalled = false
     }
 
     override fun onCreate() {
@@ -22,8 +21,7 @@ class App : Application()  {
 
         appContext = this
         directoryFile = appContext.dataDir
-        packageFolder = getAppFolder(this)
-        packagename = packageName
+        packageFolder = "/data/data/${packageName}/"
         versionString = getAppVersion(this)
         versionBuild  = getAppBuild(this)
 
@@ -49,12 +47,4 @@ fun makeFilesDirectory(packageFolder: String) : String {
     packageFile.mkdir()
 
     return packageFiles
-}
-
-fun getAppFolder(ctx: Context) : String {
-    val packageFolder = ctx.getExternalFilesDir(null)!!.absolutePath + "/"
-
-    makeFilesDirectory(packageFolder)
-
-    return packageFolder
 }

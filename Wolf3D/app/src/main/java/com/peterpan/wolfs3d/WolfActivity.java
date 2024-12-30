@@ -122,7 +122,9 @@ public class WolfActivity extends BaseActivity
         	return;
         }
 
-        mGameDir += getString(R.string.pkg_name) + File.separator + "files" + File.separator;
+		mGameDir = App.packageFolder + "files" + File.separator;
+		Log.d(TAG, "Running game from files installed on " + mGameDir);
+
 
         // Initial Image size
         Log.e(TAG,"Will set image size");
@@ -435,15 +437,6 @@ public class WolfActivity extends BaseActivity
     		}
     	}
     	
-    	/*// setup game files
-    	try {
-    		WolfTools.installGame(this, baseDir, dir);
-		} catch (Exception e) {
-			MessageBox("Fatal Error", "Unable to set game files:" + e.toString());
-			return;
-		}*/
-    	
-
     	Log.d(TAG, "Start game base dir: " + baseDir + " game=" + game + " port:" + portrait);
     	
         // Args
