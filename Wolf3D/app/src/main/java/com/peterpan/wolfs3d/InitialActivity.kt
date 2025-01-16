@@ -7,7 +7,7 @@ import club.gepetto.circum.CircumActivity
 import com.peterpan.doom.ui.GameLoadingState
 import kotlin.jvm.java
 
-open class InstallActivity : CircumActivity<Any>() {
+open class InitialActivity : CircumActivity<Any>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
