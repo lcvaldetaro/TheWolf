@@ -21,10 +21,10 @@ class WolfIntentProcessor : CircumIntentProcessor<WolfState, WolfIntentCommand, 
 
     private fun installGameFiles() {
         CoroutineScope(Dispatchers.IO).launch {
-          Looper.prepare() // needed to issue toasts
+            Looper.prepare() // needed to issue toasts
 
-          val folder = "${App.packageFolder}/files/"
-          val dir = File(folder)
+            val folder = "${App.packageFolder}/files/"
+            val dir = File(folder)
 
             if (!dir.exists() ) {
                 if (!dir.mkdir() ) {
@@ -41,7 +41,6 @@ class WolfIntentProcessor : CircumIntentProcessor<WolfState, WolfIntentCommand, 
                 Log.e(TAG, "Cannot install files on folder ${folder}")
                 e.printStackTrace()
                 System.exit(0)
-
             }
             Toast(App.appContext, "All game files installed")
             sleep (2000) // wait for all the toasts to finish
