@@ -11,7 +11,7 @@ open class InstallActivity : CircumActivity<Any>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setCircumModel(WolfCircumModel::class.java)
+        setIntentProcessor(WolfIntentProcessor::class.java)
     }
 
     override fun onStateUpdate(state: Any) {
@@ -22,15 +22,11 @@ open class InstallActivity : CircumActivity<Any>() {
                 setContent { GameLoadingState() }
             }
             is WolfState.Loaded -> {
-                startWolfClientActivity()
+                val intent = Intent(this, WolfActivity::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                this.startActivity(intent)
             }
         }
-    }
-
-    fun startWolfClientActivity () {
-        val intent = Intent(this, WolfActivity::class.java)
-        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-        this.startActivity(intent)
     }
 }
 

@@ -2,7 +2,7 @@ package com.peterpan.wolfs3d
 
 import android.os.Looper
 import android.util.Log
-import club.gepetto.circum.CircumModel
+import club.gepetto.circum.CircumIntentProcessor
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -11,8 +11,8 @@ import wolf.util.WolfTools
 import java.io.File
 import java.lang.Thread.sleep
 
-class WolfCircumModel : CircumModel<WolfState, WolfIntentCommand, WolfEffect>() {
-    val TAG = "WolfCircumModel"
+class WolfIntentProcessor : CircumIntentProcessor<WolfState, WolfIntentCommand, WolfEffect>() {
+    val TAG = "WolfIntentProcessor"
 
     override fun onAttach() {
         setState(WolfState.Loading)
