@@ -22,33 +22,33 @@ SET (CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} ${GCC_COMPILATION_FLAGS}" )
 
 
 set (lib-wolf "cacau.wolf")
-set (dir-adv "")
+set (dir-wolf "")
 
 add_library( ${lib-wolf}
         SHARED
-        ${c-files}${dir-adv}/objs.c
-        ${c-files}${dir-adv}/misc.c
-        ${c-files}${dir-adv}/id_ca.c
-        ${c-files}${dir-adv}/id_vh.c
-        ${c-files}${dir-adv}/id_us.c
-        ${c-files}${dir-adv}/wl_act1.c
-        ${c-files}${dir-adv}/wl_act2.c
-        ${c-files}${dir-adv}/wl_act3.c
-        ${c-files}${dir-adv}/wl_agent.c
-        ${c-files}${dir-adv}/wl_game.c
-        ${c-files}${dir-adv}/wl_inter.c
-        ${c-files}${dir-adv}/wl_menu.c
-        ${c-files}${dir-adv}/wl_play.c
-        ${c-files}${dir-adv}/wl_state.c
-        ${c-files}${dir-adv}/wl_text.c
-        ${c-files}${dir-adv}/wl_main.c
-        ${c-files}${dir-adv}/wl_debug.c
-        ${c-files}${dir-adv}/vi_comm.c
-        ${c-files}${dir-adv}/sd_comm.c
-        ${c-files}${dir-adv}/wl_draw.c
-        ${c-files}${dir-adv}/sd_null.c
-        ${c-files}${dir-adv}/vi_null.c
-        ${c-files}${dir-adv}/jni_wolf.c
+        ${c-files}${dir-wolf}/objs.c
+        ${c-files}${dir-wolf}/misc.c
+        ${c-files}${dir-wolf}/id_ca.c
+        ${c-files}${dir-wolf}/id_vh.c
+        ${c-files}${dir-wolf}/id_us.c
+        ${c-files}${dir-wolf}/wl_act1.c
+        ${c-files}${dir-wolf}/wl_act2.c
+        ${c-files}${dir-wolf}/wl_act3.c
+        ${c-files}${dir-wolf}/wl_agent.c
+        ${c-files}${dir-wolf}/wl_game.c
+        ${c-files}${dir-wolf}/wl_inter.c
+        ${c-files}${dir-wolf}/wl_menu.c
+        ${c-files}${dir-wolf}/wl_play.c
+        ${c-files}${dir-wolf}/wl_state.c
+        ${c-files}${dir-wolf}/wl_text.c
+        ${c-files}${dir-wolf}/wl_main.c
+        ${c-files}${dir-wolf}/wl_debug.c
+        ${c-files}${dir-wolf}/vi_comm.c
+        ${c-files}${dir-wolf}/sd_comm.c
+        ${c-files}${dir-wolf}/wl_draw.c
+        ${c-files}${dir-wolf}/sd_null.c
+        ${c-files}${dir-wolf}/vi_null.c
+        ${c-files}${dir-wolf}/jni_wolf.c
         )
 target_link_libraries(${lib-wolf} ${log-lib} )
 target_link_libraries(${lib-wolf} ${m-lib} )
