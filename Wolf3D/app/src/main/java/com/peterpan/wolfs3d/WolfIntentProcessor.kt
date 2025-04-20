@@ -14,7 +14,7 @@ import java.lang.Thread.sleep
 class WolfIntentProcessor : CircumIntentProcessor<WolfState, WolfIntentCommand, WolfEffect>() {
     val TAG = "WolfIntentProcessor"
 
-    override fun onAttach() {
+    init {
         setState(WolfState.Loading)
         installGameFiles()
     }
