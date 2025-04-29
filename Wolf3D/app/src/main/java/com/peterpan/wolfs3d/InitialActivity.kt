@@ -3,17 +3,16 @@ package com.peterpan.wolfs3d
 import android.content.Intent
 import androidx.activity.compose.setContent
 import android.os.Bundle
-import club.gepetto.circum.CircumActivity
+import androidx.activity.ComponentActivity
 import club.gepetto.circum.circumIntentProcessor
 import com.peterpan.doom.ui.GameLoadingState
 import kotlin.jvm.java
 
-open class InitialActivity : CircumActivity<Any>() {
+open class InitialActivity : ComponentActivity() {
     private lateinit var wIp : WolfIntentProcessor
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setIntentProcessor(WolfIntentProcessor::class.java)
     }
 
     override fun onResume() {
