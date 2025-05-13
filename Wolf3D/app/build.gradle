@@ -12,6 +12,9 @@ android {
         applicationId "com.peterpan.wolfs3d"
         minSdkVersion 24
         targetSdkVersion 35
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
     }
 
     buildTypes {
