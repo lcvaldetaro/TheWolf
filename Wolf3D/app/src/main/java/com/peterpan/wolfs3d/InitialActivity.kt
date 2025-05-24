@@ -32,4 +32,3 @@ open class InitialActivity : ComponentActivity() {
         }
     }
 }
-
