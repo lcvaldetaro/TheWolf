@@ -62,8 +62,9 @@ android.applicationVariants.all { variant ->
                     def originalFile = output.outputFile
                     def newFileName = "${applicationId}-release-${versionName}(${versionCode}).aab"
                     def parent = originalFile.parent.toString().replace("apk", "bundle")
-                    println("renaming ${parent}/app-release.aab to ${parent}/${newFileName}")
                     def originalBundle = file("${parent}/app-release.aab")
+
+                    println("renaming ${parent}/app-release.aab to ${parent}/${newFileName}")
                     originalBundle.renameTo("$parent/$newFileName")
                 }
             }
