@@ -56,15 +56,16 @@ dependencies {
 
 android.applicationVariants.all { variant ->
     variant.outputs.each { output ->
-        def bundleTask = tasks["bundle${variant.name.capitalize()}"]
-        bundleTask.doLast {
-            if (bundleTask.toString().contains("Release")) {
-                def originalFile = output.outputFile
-                def newFileName = "${applicationId}-release-${versionName}(${versionCode}).aab"
-                def parent = originalFile.parent.toString().replace("apk", "bundle")
-                println("renaming ${parent}/app-release.aab to ${parent}/${newFileName}")
-                def originalBundle = file("${parent}/app-release.aab")
-                originalBundle.renameTo("$parent/$newFileName")
+        tasks.named("bundle${variant.name.capitalize()}") { task ->
+            doLast {
+                if (task.toString().contains("Release")) {
+                    def originalFile = output.outputFile
+                    def newFileName = "${applicationId}-release-${versionName}(${versionCode}).aab"
+                    def parent = originalFile.parent.toString().replace("apk", "bundle")
+                    println("renaming ${parent}/app-release.aab to ${parent}/${newFileName}")
+                    def originalBundle = file("${parent}/app-release.aab")
+                    originalBundle.renameTo("$parent/$newFileName")
+                }
             }
         }
     }
