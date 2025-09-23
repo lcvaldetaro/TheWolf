@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    compileSdk 36
+    compileSdk = 36
     namespace 'com.peterpan.wolfs3d'
 
     defaultConfig {
