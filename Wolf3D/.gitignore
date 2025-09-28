@@ -1,6 +1,6 @@
  /app/.cxx
  /app/build
- /.kotlin
+ /.kotlin/sessions
  /.gradle
  /.idea
  /build
