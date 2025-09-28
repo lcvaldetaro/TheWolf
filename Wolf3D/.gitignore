@@ -1,0 +1,5 @@
+ /app/.cxx
+ /app/build
+ /.kotlin
+ /.gradle
+ /.idea
