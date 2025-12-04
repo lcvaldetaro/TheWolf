@@ -3,8 +3,8 @@ agp = "8.13.1"
 appcompat = "1.7.1"
 kotlin = "2.2.21"
 coreKtx = "1.17.0"
-activityCompose = "1.12.0"
-composeBom = "2025.11.01"
+activityCompose = "1.12.1"
+composeBom = "2025.12.00"
 circumVersion = "1.0.37"
 
 [libraries]
