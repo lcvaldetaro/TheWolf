@@ -4,7 +4,7 @@ appcompat = "1.7.1"
 kotlin = "2.3.0"
 coreKtx = "1.17.0"
 activityCompose = "1.12.2"
-composeBom = "2025.12.01"
+composeBom = "2026.01.00"
 circumVersion = "1.0.37"
 
 [libraries]
