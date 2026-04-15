@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdk = 36
+    compileSdk = 37
     namespace 'com.peterpan.wolfs3d'
 
     defaultConfig {
         applicationId "com.peterpan.wolfs3d"
         minSdkVersion 24
-        targetSdkVersion 36
+        targetSdkVersion 37
         versionCode 1
         versionName "1.0.0"
         ndk {
